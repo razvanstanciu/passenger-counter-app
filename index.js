@@ -1,6 +1,9 @@
 let count = 0
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
+const incrementBtn = document.querySelector("#increment-btn")
+
+incrementBtn.addEventListener("click", increment)
 
 function increment() {
     count += 1
